@@ -54,12 +54,12 @@ namespace ImageToPdf
 
             if (txbxSrcFile.Text.Length == 0)
             {
-                errProv.SetError(txbxSrcFile, "Please point source file.");
+                errProv.SetError(txbxSrcFile, "Please set source file.");
                 return;
             }
             else if (txbxDestFile.Text.Length == 0)
             {
-                errProv.SetError(txbxDestFile, "Please point destination file.");
+                errProv.SetError(txbxDestFile, "Please set destination file.");
                 return;
             }
 
